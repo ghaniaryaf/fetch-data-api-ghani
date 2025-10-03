@@ -17,6 +17,7 @@ export default function datafetch() {
   return (
     <div>
       {data}
+      {data.join(", ")}
     </div>
   );
 }
